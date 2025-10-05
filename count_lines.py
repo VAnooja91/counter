@@ -1,5 +1,8 @@
 """Counts the number of lines in a file"""
+counter = 0
 with open("story.txt", "r") as FH:
     for line in FH:
-        print("the lines are::", line)
+        counter += 1
+        
+print("total count of lines:", counter)
     
