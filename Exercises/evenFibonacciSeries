@@ -1,0 +1,16 @@
+def fibonacciSeries(num):
+    fibo1 = 0
+    fibo2 = 1
+    n_even = 0
+
+    while True:   
+        fibo1, fibo2 = fibo2, fibo1 + fibo2
+        
+        if fibo2 % 2 == 0:
+            if n_even == 10:
+                break
+            print(fibo2)
+            n_even += 1
+
+
+fibonacciSeries(10)
