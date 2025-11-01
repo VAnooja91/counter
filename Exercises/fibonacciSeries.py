@@ -5,7 +5,7 @@ def fibonacciSeries(num):
     print(fibo1)
     print(fibo2)
 
-    for i in range(3, num + 1):
+    for i in range(num - 2):
         temp = fibo1 + fibo2
         fibo1 = fibo2
         fibo2 = temp
