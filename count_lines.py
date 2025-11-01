@@ -7,10 +7,13 @@ def count_lines(f_name, skip_empty=False):
                 counter += 1
             elif skip_empty == False and line == "\n":
                 counter += 1
-            #print(counter ,repr(line))
     return counter
 
+def skip_empty_line():
+    pass
 
+def without_skip_empty_lines():
+    pass
 
 print("total count of lines:", count_lines("story.txt"))
 print("total count of lines:", count_lines("story.txt", skip_empty=True))
