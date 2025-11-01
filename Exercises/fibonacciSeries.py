@@ -1,14 +1,14 @@
 def fibonacciSeries(num):
-    temp1 = 0
-    temp2 = 1
+    fibo1 = 0
+    fibo2 = 1
 
-    print(temp1)
-    print(temp2)
+    print(fibo1)
+    print(fibo2)
 
     for i in range(3, num + 1):
-        temp = temp1 + temp2
-        temp1 = temp2
-        temp2 = temp
+        temp = fibo1 + fibo2
+        fibo1 = fibo2
+        fibo2 = temp
         print(temp)
 
 
