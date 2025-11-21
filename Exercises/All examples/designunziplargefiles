@@ -1,0 +1,12 @@
+""" Backend system design using django and python
+
+1. we have a folder of multiple files in a .zip format
+2. if we unzip the folder each file is of size 4gb but the system size
+   is just 8gb so we unzip the folder system my get crash
+3. also wanted to update the folder
+4. wanted to update the content inside a file
+5. there may be a possiblility of mutiple sub folders 
+   inside a main folder
+6. we don't know the size of the files
+
+What is the approch in writing the backend of views models and all"""
